@@ -42,8 +42,9 @@ list_speedc list[30];
 
 int SPEEDC_ROW;
 
+extern GtkWidget *label_warning;
 
-GtkWidget *Speed_config;
+static GtkWidget *Speed_config;
 
 /*****************************************************************************/
 void xbindkeys_config_speed_init()

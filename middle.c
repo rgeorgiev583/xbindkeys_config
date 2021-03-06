@@ -47,6 +47,8 @@ void middle_apply_action(GtkWidget *parent, void *data);
 void middle_clist_set_visible();
 void restart_xbindkeys();
 
+extern GtkWidget *button_undo_menu;
+
 #define TITLE_NB_ITEMS 3
 static char *titles[TITLE_NB_ITEMS]=
 {
@@ -83,9 +85,7 @@ gchar button_undo_rem[128];
 gchar button_undo_key[128];
 gchar button_undo_act[128];
 
-//GtkWidget *label_warning;
-
-GtkWidget *Speed_config;
+GtkWidget *label_warning;
 
 
 /*****************************************************************************/

@@ -20,9 +20,6 @@
 GtkWidget * xbindkeys_config_middle();
 GtkWidget * xbindkeys_config_middle_list(gboolean show);
 
-GtkWidget *button_undo_menu;
-GtkWidget *label_warning;
-
 void new_file();
 void read_file(char file[]);
 void save_file(char file_out[]);

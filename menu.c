@@ -44,6 +44,8 @@ GtkWidget *SaveAs;
 GtkWidget *About;
 GtkWidget *Manual;
 
+GtkWidget *button_undo_menu;
+
 GtkWidget * xbindkeys_config_menu(GtkAccelGroup *accel_group)
 {
   GtkWidget *Handle;
