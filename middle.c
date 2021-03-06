@@ -565,7 +565,7 @@ void view_generated_file()
     gtk_container_add (GTK_CONTAINER(src),  text);
 
     while (fgets (line, sizeof(line), f))
-      gtk_text_insert (GTK_TEXT(text), NULL, NULL, NULL,
+      gtk_text_insert (text, NULL, NULL, NULL,
 		       line, strlen(line));
 
     gtk_container_add(GTK_CONTAINER(window),src);

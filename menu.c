@@ -298,7 +298,7 @@ void menu_manual (GtkMenuItem *menuitem, gpointer user_data)
   text = gtk_text_new(NULL,NULL);
   
   
-  gtk_text_insert (GTK_TEXT(text), NULL, NULL, NULL,
+  gtk_text_insert (text, NULL, NULL, NULL,
 		   MANUAL_TEXT, sizeof(MANUAL_TEXT)-1);
   gtk_box_pack_start(GTK_BOX(vbox), text, TRUE, TRUE, 0);
   gtk_widget_set_usize(text,300,250);
