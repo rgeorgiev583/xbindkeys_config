@@ -1,0 +1,32 @@
+xbindkeys_config changelog by Laurent Vuibert <lapinator@gmx.fr>
+
+
+version:
+
+0.1.3:
+	Fix: Crash bug when delete all entry.
+	Fix: Build-error with gcc-3.3 (thank to Joerg Jaspert for the patch).
+	Add: make unistall
+	
+0.1.2:  
+	Add: Update to xbindkey 1.5.5
+	Add: Speed_config (for change config quikly)
+	
+0.1.1:
+	Add: Fix Crash Bugs
+	
+0.1.0: 
+        Add: upgrate to xbindkey 1.4.0
+	
+0.0.3:
+	Add: Undo button
+	Add: Command line options
+	Add: "View genrated rc" button
+	Add: Warning Area
+	Add: Drag & drop
+	Add: accel button
+	
+0.0.2:
+	Add: read .xbindkeysrc file
+	Add: write .xbindkeysrc file
+	Add: grab keys:

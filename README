@@ -1,0 +1,51 @@
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+
+
+this is a config program for xbindkeys
+it can create and modify the file ~/.xbindkeysrc, stop and restart xbindkeys.
+
+
+
+-- Required
+
+  XFree86
+
+to compile from source:
+
+	the GTK+ include files and libraries.
+
+
+-- Instructions for instalation:
+
+You have need xbindkeys program
+http://hocwp.free.fr/xbindkeys/xbindkeys.html
+
+
+xbindkeys_config  instalation:
+
+     make
+     su root
+     make install
+
+for uninstall
+     su root
+     make unistall
+
+too use xbindkeys_config type:
+
+xbindkeys_config
+
+
+
+
+-- Contact Info
+
+Laurent Vuibert
+lapinator@gmx.net
