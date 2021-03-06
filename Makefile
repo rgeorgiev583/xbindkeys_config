@@ -2,8 +2,8 @@
 
 CC=	gcc -O3 -Wall
 STD=	_GNU_SOURCE
-GTK=	`gtk-config  --cflags --libs`
-GTK2=	`gtk-config  --cflags`
+GTK=	`pkg-config  --cflags --libs gtk+-2.0`
+GTK2=	`pkg-config  --cflags gtk+-2.0`
 OBJS=	xbindkeys_config.o menu.o middle.o speedc.o
 NOM=    xbindkeys_config
 
