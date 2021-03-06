@@ -1,7 +1,10 @@
-xbindkeys_config changelog by Laurent Vuibert <lapinator@gmx.fr>
+xbindkeys_config changelog by Radoslav Georgiev <rgeorgiev583@gmail.com> and Laurent Vuibert <lapinator@gmx.fr>
 
 
 version:
+
+0.1.4:
+	Fix: make the build work with GTK2 and the latest versions of GCC and GNU ld
 
 0.1.3:
 	Fix: Crash bug when delete all entry.

@@ -1,3 +1,8 @@
+NOTE: This is a version of the original xbindkeys_config source which has been
+modified to work with GTK2 and the latest versions of GCC and GNU ld (which are
+respectively 10.2.0 and 2.36.1 as of the time of this writing).  It has been
+tested under Arch Linux, where it managed to build and run successfully.
+
 /***************************************************************************
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
