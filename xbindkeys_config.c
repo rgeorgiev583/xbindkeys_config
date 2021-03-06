@@ -95,7 +95,7 @@ int main (int argc, char *argv[])
      accel_group = gtk_accel_group_new();
      menu=xbindkeys_config_menu(accel_group);
      gtk_box_pack_start(GTK_BOX(vbox),menu,FALSE,FALSE,0);
-     gtk_accel_group_attach(accel_group, GTK_OBJECT(window));
+     gtk_window_add_accel_group(GTK_OBJECT(window), accel_group);
      
      middle= xbindkeys_config_middle();
      gtk_box_pack_start(GTK_BOX(vbox),middle,TRUE,TRUE,0);
