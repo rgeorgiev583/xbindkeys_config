@@ -43,7 +43,7 @@ for uninstall
      su root
      make unistall
 
-too use xbindkeys_config type:
+to use xbindkeys_config type:
 
 xbindkeys_config
 
